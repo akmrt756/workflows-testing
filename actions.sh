@@ -1,5 +1,5 @@
-branch=main
-git clone https://github.com/satyanandatripathi/video-stream /root/TeamUltroid
+
+git clone -b dev https://github.com/TeamUltroid/Ultroid /root/TeamUltroid
 cp ultroid/local.env /root/TeamUltroid/local.env
 cd /root/TeamUltroid
 docker build . -t ultroid
