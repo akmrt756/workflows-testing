@@ -1,4 +1,3 @@
-
 git clone -b dev https://github.com/TeamUltroid/Ultroid /root/TeamUltroid
 cp ultroid/.env /root/TeamUltroid/.env
 cd /root/TeamUltroid
