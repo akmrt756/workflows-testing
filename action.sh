@@ -1,5 +1,5 @@
 
-git clone https://github.com/TeamUltroid/Ultroid /root/TeamUltroid
+git clone -b dev https://github.com/TeamUltroid/Ultroid /root/TeamUltroid
 cp ultroid/.env /root/TeamUltroid/.env
 cd /root/TeamUltroid
 docker build . -t ultroid
