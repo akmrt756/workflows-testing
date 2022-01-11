@@ -1,4 +1,4 @@
-git clone https://github.com/TeamUltroid/Ultroid /root/Ultroid
+git clone -b dev https://github.com/TeamUltroid/Ultroid /root/Ultroid
 cp SedLoif/.env /root/Ultroid/.env
 cd /root/Ultroid
 docker build . -t ultroid
