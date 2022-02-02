@@ -8,6 +8,6 @@ cp SedLoif/.env Ultroid/.env
 cd Ultroid 
 pip3 install --no-cache-dir -r requirements.txt 
 pip3 install --no-cache-dir -r res*/sta*/opt*.txt
-pip3 install youtube_dl -U
+pip3 install yt_dlp -U
 pip3 install av --no-binary av
 python3 -m pyUltroid
