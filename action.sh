@@ -2,7 +2,7 @@ apt-get update -y && apt-get upgrade -y
 apt-get install ffmpeg -y
 apt-get install avconv -y
 apt install neofetch
-git clone -b dev https://github.com/TeamUltroid/Ultroid 
+git clone -b main https://github.com/TeamUltroid/Ultroid 
 chmod 777 Ultroid
 cp SedLoif/.env Ultroid/.env
 cd Ultroid 
